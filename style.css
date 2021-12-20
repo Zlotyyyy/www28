@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: #121212;
+    color:white;
+}
+
+.kursory, .filtry {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+h1 {
+    text-align:center;
+}
+
+hr {
+    background-color:white;
+    margin: 20px;
+}
+h3 {
+    width:20%;
+    margin:20px;
+    color:green;
+}
+
+h2 {
+    text-align:center;
+}
+
+.x1 {
+    cursor:copy;
+}
+.x2 {
+    cursor:pointer;
+}
+.x3 {
+    cursor:move;
+}
+.x4 {
+    cursor:grab;
+}
+.x5 {
+    cursor:not-allowed;
+}
+.x6 {
+    cursor:help;
+}
+.x7 {
+    cursor:progress;
+}
+
+.y1, .y2, .y3, .y4 {
+    width:20vw;
+    height:20vw;
+}
+.y1 {
+    filter:sepia();
+}
+.y2 {
+    filter:saturate(100);
+}
+.y3 {
+    filter:invert();
+}
+.y4 {
+    filter:blur(5px);
+}
